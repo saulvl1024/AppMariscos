@@ -9,12 +9,12 @@ class comanda : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_comanda)
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setContentView(R.layout.content_comanda)
+        //setSupportActionBar(findViewById(R.id.))
 
-        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+        //findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
+          //  Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            //    .setAction("Action", null).show()
+        //}
     }
 }
