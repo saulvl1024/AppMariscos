@@ -54,7 +54,7 @@
         android:layout_marginBottom="64dp"
         android:backgroundTint="@color/design_default_color_error"
         android:onClick="inicio"
-        android:text="Aceptar"
+        android:text="@string/inicio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
