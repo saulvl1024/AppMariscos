@@ -54,7 +54,7 @@
         android:layout_height="65dp"
         android:layout_marginBottom="64dp"
         android:backgroundTint="#DF3E7E"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="sans-serif-condensed-light"
         android:onClick="inicio"
         android:text="@string/inicio"
         app:layout_constraintBottom_toBottomOf="parent"
