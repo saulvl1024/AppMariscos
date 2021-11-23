@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <EditText
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.554"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/antojitos_marinerod" />
 
     <Button
         android:id="@+id/inicio"
@@ -54,6 +54,7 @@
         android:layout_height="65dp"
         android:layout_marginBottom="64dp"
         android:backgroundTint="#DF3E7E"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="inicio"
         android:text="@string/inicio"
         app:layout_constraintBottom_toBottomOf="parent"
