@@ -18,7 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
     <Button
@@ -26,6 +27,7 @@
         android:layout_width="155dp"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
+        android:background="@drawable/circular"
         android:backgroundTint="#DF3E7E"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/Mesa"
@@ -40,14 +42,11 @@
         android:id="@+id/imageView"
         android:layout_width="474dp"
         android:layout_height="225dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554"
         app:srcCompat="@drawable/bienvenido" />
 
     <Button
@@ -55,6 +54,7 @@
         android:layout_width="156dp"
         android:layout_height="69dp"
         android:layout_marginBottom="32dp"
+        android:background="@drawable/circular"
         android:backgroundTint="#A43E90E8"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/llevar"
@@ -68,6 +68,7 @@
         android:layout_width="157dp"
         android:layout_height="71dp"
         android:layout_marginBottom="60dp"
+        android:background="@drawable/circular"
         android:backgroundTint="#D0AE2A3E"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/activas"
@@ -77,17 +78,17 @@
         app:layout_constraintStart_toStartOf="@+id/button2" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="73dp"
+        android:id="@+id/textViewElegirMesa"
+        android:layout_width="110dp"
         android:layout_height="35dp"
         android:layout_marginTop="245dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Mesa"
+        android:text="@string/Mesa"
         android:textColor="#121111"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/spinner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/spinner"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.0" />
