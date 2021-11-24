@@ -24,7 +24,7 @@
         android:layout_width="156dp"
         android:layout_height="69dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#A43E90E8"
+        android:backgroundTint="#7C47B3A6"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/agg"
         app:layout_constraintBottom_toTopOf="@+id/CANCELACION2"
@@ -70,5 +70,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:foregroundTint="#2196F3"
+        android:text="@string/canasta"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

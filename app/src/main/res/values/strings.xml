@@ -10,7 +10,7 @@
     <string name="Mesa">Elegir mesa</string>
     <string name="llevar">Para llevar</string>
     <string name="FRIA">BARRA FRIA</string>
-    <string name="CALIENTE">BARRA CALIENTE</string>
+    <string name="canasta">Canasta  Orden activa</string>
     <string name="save">Guardar</string>
     <string name="POSTRES">POSTRES</string>
     <string name="activas">ordenes activas</string>
